@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Cardápio de Produtos </title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Hepta+Slab:400,700|Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon">
+</head>
+
+<body class="body-pizza">
+    <div class="pagina-produto">
+
+        <section>
+            <ul class="menu--paginas">
+                <li>
+                    <a href="#cardapio-pizza">
+                        <div class="menu--paginas-produto">
+                            <div class="menu--paginas-produto--titulo">
+                                <h2>Pizzas</h2>
+                            </div>
+                            <img class="menu--paginas-produto--img" src="/assets/images/pizzas/americana.jpg" alt="Produtos" />
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#cardapio-hamburguer">
+                        <div class="menu--paginas-produto ">
+                            <div class="menu--paginas-produto--titulo ">
+                                <h2>Hamburgers</h2>
+                            </div>
+                            <img class="menu--paginas-produto--img " src="/assets/images/hamburgers/xegg.jpg " alt="Hamburgers " />
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#cardapio-bebida">
+                        <div class="menu--paginas-produto ">
+                            <div class="menu--paginas-produto--titulo ">
+                                <h2>Bebidas</h2>
+                            </div>
+                            <img class="menu--paginas-produto--img " src="/assets/images/bebidas/bebidas.jpg " alt="Bebidas " />
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <div class="models ">
+            <div class="produtos-item">
+                <a href=" ">
+                    <div class="produtos-item--img "><img src=" " /></div>
+                    <div class="produtos-item--add ">+</div>
+                </a>
+                <div class="produtos-item-infor ">
+                    <div class="produtos-item-name-price ">
+                        <div class="produtos-item--name ">--</div>
+                        <div class="produtos-item--price ">R$ --</div>
+                    </div>
+                    <div class="produtos-item--desc ">--</div>
+                </div>
+            </div>
+            <div class="cart--item ">
+                <img src=" " />
+                <div class="cart--item-nome-qtarea">
+                    <div class="cart--item-nome ">--</div>
+                    <div class="cart--item--qtarea ">
+                        <button class="cart--item-qtmenos ">-</button>
+                        <div class="cart--item--qt ">1</div>
+                        <button class="cart--item-qtmais ">+</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <main>
+            <fieldset id="cardapio-pizza" class="Pizzas-area container ">
+                <legend class="legenda ">
+                    <h1>Pizzas</h1>
+                </legend>
+            </fieldset>
+            <fieldset id="cardapio-hamburguer" class="Hamburgers-area container ">
+                <legend class="legenda ">
+                    <h1>Hamburgers</h1>
+                </legend>
+            </fieldset>
+            <fieldset id="cardapio-bebida" class="Bebidas-area container ">
+                <legend class="legenda ">
+                    <h1>Bebidas</h1>
+                </legend>
+            </fieldset>
+        </main>
+    </div>
+
+
+    <div class="produto-WindowArea ">
+        <div class="produto-WindowBody ">
+            <div class="produto-Info--cancelMobileButton ">Voltar</div>
+            <div class="produto-Big ">
+                <img src=" " />
+            </div>
+            <div class="produto-Info ">
+                <h1>--</h1>
+                <div class="produto-Info--desc ">--</div>
+                <div class="produto-Info--size-area ">
+                    <div class="produto-Info--sector ">Tamanho</div>
+                    <div class="produto-Info--sizes ">
+                        <div data-key="0 " class="produto-Info--size size_price ">PEQUENA <span>--</span></div>
+                        <div data-key="1 " class="produto-Info--size size_price  ">MÉDIO <span>--</span></div>
+                        <div data-key="2 " class="produto-Info--size size_price selected ">GRANDE <span>--</span></div>
+                    </div>
+                </div>
+
+                <div class="produto-Info--price-area">
+                    <div class="produto-Info--sector">Preço</div>
+                    <div class="produto-Info--price">
+                        <div class="produto-Info--actualPrice">R$ --</div>
+                        <div class="produto-Info--qtarea-pizza">
+                            <button class="produto-Info--qtmenos-pizza ">-</button>
+                            <div class="produto-Info--qt-pizza ">1</div>
+                            <button class="produto-Info--qtmais-pizza ">+</button>
+                        </div>
+                        <div class="produto-Info--qtarea-hamburger">
+                            <button class="produto-Info--qtmenos-hamburger ">-</button>
+                            <div class="produto-Info--qt-hamburger ">1</div>
+                            <button class="produto-Info--qtmais-hamburger ">+</button>
+                        </div>
+                        <div class="produto-Info--qtarea-bebida">
+                            <button class="produto-Info--qtmenos-bebida ">-</button>
+                            <div class="produto-Info--qt-bebida ">1</div>
+                            <button class="produto-Info--qtmais-bebida ">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="produto-Info--addButton ">Adicionar ao carrinho</div>
+                <div class="produto-Info--cancelButton ">Cancelar</div>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="menu-openner "><span>0</span>🛒</div>
+    </header>
+    <aside>
+        <div class="cart--area ">
+            <div class="menu-closer ">❌</div>
+            <h1>Carrinho de Compras</h1>
+            <div class="cart "></div>
+            <div class="cart--details ">
+                <div class="cart--totalitem subtotal ">
+                    <span>Subtotal</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem desconto ">
+                    <span>Desconto (-5%)</span>
+                    <span>R$ --</span>
+                </div>
+                <div>
+                    <div class="cart--totalitem frete ">
+                        <span>Frete</span>
+                        <span>R$ --</span>
+                    </div>
+                    <div class="cart--totalitem total big ">
+                        <span>Total</span>
+                        <span>R$ --</span>
+                    </div>
+                    <div class="cart--finalizar ">Finalizar a compra</div>
+                </div>
+            </div>
+    </aside>
+
+    <div class="fab">
+        <button class="main">
+        </button>
+        <ul>
+            <li>
+                <a href="#cardapio-pizza">
+                    <label for="opcao2">Pizzas</label>
+                    <button id="opcao1"> 
+                        <img src="/assets/images/pizzas/americana.jpg" alt="">
+                    </button>
+                </a>
+            </li>
+            <li>
+                <a href="#cardapio-hamburguer">
+                    <label for="opcao1">Hamburgers</label>
+                    <button id="opcao1">
+                        <img src="/assets/images/hamburgers/xegg.jpg" alt="">
+                    </button>
+                </a>
+            </li>
+            <li>
+                <a href="#cardapio-bebida">
+                    <label for="opcao1">Bebidas</label>
+                    <button onclick="mostrarBebidas()" id="opcao1">
+                        <img src="/assets/images/bebidas/bebidas.jpg" alt="">
+                    </button>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <script type="text/javascript " src="/assets/js/produtos.js "></script>
+    <script type="text/javascript " src="/assets/js/scriptProdutos.js "></script>
+</body>
+
+</html>

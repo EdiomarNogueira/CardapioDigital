@@ -1,0 +1,102 @@
+body {
+    flex-direction: column;
+    width: 100%;
+}
+
+.Pizzas-area,
+.Hamburgers-area,
+.Bebidas-area {
+    display: block;
+}
+
+.Pizzas-area,
+.Hamburgers-area,
+.Bebidas-area {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.produtos--item {
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+}
+
+main {
+    padding-top: 60px;
+}
+
+aside {
+    width: auto;
+    position: fixed;
+    left: 100vw;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all ease .2s;
+}
+
+aside.show {
+    width: auto;
+}
+
+.cart--area {
+    width: 100vw;
+}
+
+.menu-closer {
+    display: block;
+}
+
+.produto-WindowArea {
+    justify-content: flex-start;
+    align-items: flex-start;
+    z-index: 10;
+}
+
+.produto-WindowBody {
+    width: 100vw;
+    display: block;
+    padding: 20px;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0;
+}
+
+.produto-Big img {
+    width: 75%;
+    height: auto;
+}
+
+.produto-Info h1 {
+    margin-top: 20px;
+}
+
+.produto-Info--qtarea-pizza,
+.produto-Info--qtarea-hamburger,
+.produto-Info--qtarea-bebida {
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    padding: 0px 25px;
+    display: flex;
+    align-items: center;
+}
+
+.produto-Info--addButton {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.produto-Info--cancelButton {
+    display: none;
+}
+
+.produto-Info--cancelMobileButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
